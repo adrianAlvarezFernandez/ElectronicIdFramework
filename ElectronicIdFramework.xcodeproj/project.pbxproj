@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB60C50B7BEE2757D3C3F5B /* Pods_ElectronicIdFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97DDB3846BEB5B21C85C0828 /* Pods_ElectronicIdFrameworkTests.framework */; };
+		B6B406E663EED018DF456C6F /* Pods_ElectronicIdFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB997DAB10FCCA43C0DFA81B /* Pods_ElectronicIdFramework.framework */; };
 		E90E04591D1BC5EA00899FBE /* ElectronicIdFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E90E04581D1BC5EA00899FBE /* ElectronicIdFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E90E04601D1BC5EA00899FBE /* ElectronicIdFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90E04551D1BC5EA00899FBE /* ElectronicIdFramework.framework */; };
 		E90E04651D1BC5EA00899FBE /* ElectronicIdFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E04641D1BC5EA00899FBE /* ElectronicIdFrameworkTests.swift */; };
+		E90E04741D1BD8D200899FBE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90E04731D1BD8D200899FBE /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02FB1E9F6D5F47ED10818D77 /* Pods-ElectronicIdFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectronicIdFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElectronicIdFrameworkTests/Pods-ElectronicIdFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		284E4696552913DA6D96F842 /* Pods-ElectronicIdFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectronicIdFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElectronicIdFrameworkTests/Pods-ElectronicIdFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A8FEDCD05B2A89A5C13ADE9 /* Pods-ElectronicIdFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectronicIdFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElectronicIdFramework/Pods-ElectronicIdFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		97DDB3846BEB5B21C85C0828 /* Pods_ElectronicIdFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectronicIdFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D6B05249994FADE885879B /* Pods-ElectronicIdFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectronicIdFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElectronicIdFramework/Pods-ElectronicIdFramework.release.xcconfig"; sourceTree = "<group>"; };
+		DB997DAB10FCCA43C0DFA81B /* Pods_ElectronicIdFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElectronicIdFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90E04551D1BC5EA00899FBE /* ElectronicIdFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ElectronicIdFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90E04581D1BC5EA00899FBE /* ElectronicIdFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElectronicIdFramework.h; sourceTree = "<group>"; };
 		E90E045A1D1BC5EA00899FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E90E045F1D1BC5EA00899FBE /* ElectronicIdFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectronicIdFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90E04641D1BC5EA00899FBE /* ElectronicIdFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectronicIdFrameworkTests.swift; sourceTree = "<group>"; };
 		E90E04661D1BC5EA00899FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90E046F1D1BD8BA00899FBE /* AKStompClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AKStompClient.framework; path = "../../Library/Developer/Xcode/DerivedData/ElectronicIdFramework-bgalfzbgvrkdqjdeidjkpyfncdqi/Build/Products/Debug-iphoneos/AKStompClient/AKStompClient.framework"; sourceTree = "<group>"; };
+		E90E04711D1BD8BE00899FBE /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../Library/Developer/Xcode/DerivedData/ElectronicIdFramework-bgalfzbgvrkdqjdeidjkpyfncdqi/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework"; sourceTree = "<group>"; };
+		E90E04731D1BD8D200899FBE /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B406E663EED018DF456C6F /* Pods_ElectronicIdFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +57,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				E90E04601D1BC5EA00899FBE /* ElectronicIdFramework.framework in Frameworks */,
+				0CB60C50B7BEE2757D3C3F5B /* Pods_ElectronicIdFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5419F42150985A785A8FBA8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E90E04711D1BD8BE00899FBE /* ObjectMapper.framework */,
+				E90E046F1D1BD8BA00899FBE /* AKStompClient.framework */,
+				DB997DAB10FCCA43C0DFA81B /* Pods_ElectronicIdFramework.framework */,
+				97DDB3846BEB5B21C85C0828 /* Pods_ElectronicIdFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B35E2610C994F67BD7951D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A8FEDCD05B2A89A5C13ADE9 /* Pods-ElectronicIdFramework.debug.xcconfig */,
+				C0D6B05249994FADE885879B /* Pods-ElectronicIdFramework.release.xcconfig */,
+				284E4696552913DA6D96F842 /* Pods-ElectronicIdFrameworkTests.debug.xcconfig */,
+				02FB1E9F6D5F47ED10818D77 /* Pods-ElectronicIdFrameworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E90E044B1D1BC5EA00899FBE = {
 			isa = PBXGroup;
 			children = (
 				E90E04571D1BC5EA00899FBE /* ElectronicIdFramework */,
 				E90E04631D1BC5EA00899FBE /* ElectronicIdFrameworkTests */,
 				E90E04561D1BC5EA00899FBE /* Products */,
+				6B35E2610C994F67BD7951D5 /* Pods */,
+				5419F42150985A785A8FBA8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +111,7 @@
 			children = (
 				E90E04581D1BC5EA00899FBE /* ElectronicIdFramework.h */,
 				E90E045A1D1BC5EA00899FBE /* Info.plist */,
+				E90E04731D1BD8D200899FBE /* File.swift */,
 			);
 			path = ElectronicIdFramework;
 			sourceTree = "<group>";
@@ -104,10 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E90E04691D1BC5EA00899FBE /* Build configuration list for PBXNativeTarget "ElectronicIdFramework" */;
 			buildPhases = (
+				BFF2EEBF4C650CC666D95B16 /* [CP] Check Pods Manifest.lock */,
 				E90E04501D1BC5EA00899FBE /* Sources */,
 				E90E04511D1BC5EA00899FBE /* Frameworks */,
 				E90E04521D1BC5EA00899FBE /* Headers */,
 				E90E04531D1BC5EA00899FBE /* Resources */,
+				63737008779A42E1E409488E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E90E046C1D1BC5EA00899FBE /* Build configuration list for PBXNativeTarget "ElectronicIdFrameworkTests" */;
 			buildPhases = (
+				957E864030844F6E0663721F /* [CP] Check Pods Manifest.lock */,
 				E90E045B1D1BC5EA00899FBE /* Sources */,
 				E90E045C1D1BC5EA00899FBE /* Frameworks */,
 				E90E045D1D1BC5EA00899FBE /* Resources */,
+				D3F688809EEFC6A8CFF20F1B /* [CP] Embed Pods Frameworks */,
+				C1C768CC96EBC2C7F49CC40F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -189,11 +233,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63737008779A42E1E409488E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectronicIdFramework/Pods-ElectronicIdFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		957E864030844F6E0663721F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF2EEBF4C650CC666D95B16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1C768CC96EBC2C7F49CC40F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectronicIdFrameworkTests/Pods-ElectronicIdFrameworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3F688809EEFC6A8CFF20F1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElectronicIdFrameworkTests/Pods-ElectronicIdFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E90E04501D1BC5EA00899FBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90E04741D1BD8D200899FBE /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +432,9 @@
 		};
 		E90E046A1D1BC5EA00899FBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8FEDCD05B2A89A5C13ADE9 /* Pods-ElectronicIdFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +445,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ElectronicId.ElectronicIdFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E90E046B1D1BC5EA00899FBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D6B05249994FADE885879B /* Pods-ElectronicIdFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -341,6 +469,7 @@
 		};
 		E90E046D1D1BC5EA00899FBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284E4696552913DA6D96F842 /* Pods-ElectronicIdFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ElectronicIdFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -351,6 +480,7 @@
 		};
 		E90E046E1D1BC5EA00899FBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FB1E9F6D5F47ED10818D77 /* Pods-ElectronicIdFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ElectronicIdFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -378,6 +508,7 @@
 				E90E046B1D1BC5EA00899FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E90E046C1D1BC5EA00899FBE /* Build configuration list for PBXNativeTarget "ElectronicIdFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +517,7 @@
 				E90E046E1D1BC5EA00899FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
